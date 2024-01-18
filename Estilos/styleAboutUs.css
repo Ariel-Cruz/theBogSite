@@ -8,17 +8,19 @@
 }
 a{
     font-family: 'Press Start 2P', system-ui;
+    
 }
 p{
     color: #ffffff;
     font-size: 20px;
-    padding-left: 4%;
+    margin: 4%;
 }
 h1{
     font-family: 'Press Start 2P', system-ui;
     font-size: 40px;
     color: #ffffff;
-    padding-left: 3%;
+    margin: 3%;
+    
 }
 #imagen, img {
     height: 100%;
@@ -27,4 +29,10 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }
