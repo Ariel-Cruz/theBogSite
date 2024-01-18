@@ -15,20 +15,36 @@ body{
     margin:auto
   }
 
+main {
+  padding: 5% 5% 5% 5%
+}
+
 /*Tipografía y colores de fuente */
 p {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  padding: 20px;
+  padding: 20px 20px 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 h2{
   color: white;
   font-family: 'Press Start 2P', system-ui;
+  font-size: 2rem;
+}
+
+.holder{
+  padding: 5px;
+  clear: both;
 }
 
 /* imágenes */
 .right {
+  display:inline;
   float: right;
   max-width: 45%;
   margin-bottom: 10px;
@@ -36,6 +52,7 @@ h2{
 }
 
 .left {
+  display: inline;
   float: left;
   max-width: 45%;
   margin-bottom: 10px;
@@ -44,12 +61,14 @@ h2{
 
 /*parte de abajo */
 footer {
-  display: flex;
-  justify-content: space-between;
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  padding: 20px;
-  margin-top: auto;
-  margin-bottom: 0;
+  display:block;
+  width: 80px;
+  margin:auto;
+  box-sizing: border-box;
+  margin: 96.475px;
 }
 
+footer p {
+  display: inline-block;
+  margin: 5%;
+}
