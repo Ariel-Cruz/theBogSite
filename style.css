@@ -28,13 +28,14 @@ p {
   margin-bottom: 20px;
   font-size: 1rem;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h2{
   color: white;
   font-family: 'Press Start 2P', system-ui;
   font-size: 2rem;
+  line-height: 1.25;
 }
 
 .holder{
@@ -62,10 +63,8 @@ h2{
 /*parte de abajo */
 footer {
   display:block;
-  width: 80px;
-  margin:auto;
   box-sizing: border-box;
-  margin: 96.475px;
+  margin-left: 134.797px;
 }
 
 footer p {
