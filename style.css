@@ -2,3 +2,54 @@ html {
   height: 100%;
   width: 100%;
 }
+
+/* Fondo */
+body{
+  background: url(img/ninbg.jpg)no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin:auto
+  }
+
+/*Tipografía y colores de fuente */
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  padding: 20px;
+}
+
+h2{
+  color: white;
+  font-family: 'Press Start 2P', system-ui;
+}
+
+/* imágenes */
+.right {
+  float: right;
+  max-width: 45%;
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+
+.left {
+  float: left;
+  max-width: 45%;
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+/*parte de abajo */
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
