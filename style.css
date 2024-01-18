@@ -17,9 +17,9 @@ h2{
   margin-top: 20px;
 }
 
-nav{
-  background-color: e4000f;
-  font-family:'Press Start 2P', cursive;
+nav {
+  background-color: #343a40;
+  font-family: 'Press Start 2P', cursive;
 }
 p{
   font-family: 'Roboto', sans-serif;
@@ -177,7 +177,7 @@ footer {
 footer p {
   display: inline-block;
   margin: 5%;
-* {
+ 
   box-sizing: border-box;
 }
 
@@ -288,9 +288,10 @@ h1{
   margin-left: auto;
   margin-right: auto;
 }
+
 footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-}
+} 
