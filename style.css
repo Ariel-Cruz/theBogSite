@@ -3,11 +3,11 @@ html {
   width: 100%;
 }
 img{
-  max-width: 60%;
+  max-width: 50%;
   height: auto;
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   vertical-align: middle;
   overflow-clip-margin: content-box;
   overflow: clip;
@@ -43,6 +43,11 @@ body{
   color: #212529;
   text-align: left;
   background-color: #fff;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
 }
 
 
