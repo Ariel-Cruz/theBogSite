@@ -19,3 +19,22 @@
 .nav-item a:active {
   color: #416864;
 }
+
+body{
+background: url(img/ninbg.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img{
+  max-width: 80%;
+  height: auto;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#title{
+  color: #00C6AB;
+}
