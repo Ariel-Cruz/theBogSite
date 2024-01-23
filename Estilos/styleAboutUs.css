@@ -1,7 +1,7 @@
 
 /* estilos about us */
 #back{
-    background-image: url('../Pic/black-background.jpg');
+    background-image: url('../Pic/ninbg - copia.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ a{
     
 }
 p{
-    color: #ffffff;
+    color: #ffffff; 
     font-size: 20px;
     margin: 4%;
 }
