@@ -31,8 +31,14 @@ h1{
     margin-right: auto;
 }
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-}
+    display:block;
+    box-sizing: border-box;
+    margin-left: 13px;
+  }
+  
+  footer p {
+    display: inline-block;
+    margin: 2%;
+   
+    box-sizing: border-box;
+  }
