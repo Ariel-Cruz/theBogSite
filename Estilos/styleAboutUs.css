@@ -10,20 +10,26 @@
   a {
     font-family: 'Press Start 2P', system-ui;
   }
+  #title{
+  color: #00C6AB;
+}
 
   p {
-    color: #68DA3E; /* Change the color for paragraphs */
+    color: #fff; /* Change the color for paragraphs */
     font-size: 20px;
   }
 
   h1 {
     font-family: 'Press Start 2P', system-ui;
     font-size: 40px;
-    color: #68DA3E; /* Change the color for h1 */ 
+    
   }
 
   footer p {
     color: #00C6AB; /* Change the color for footer text */
+  }
+  .navbar {
+    background-color:#00C6AB ;
   }
   
   
