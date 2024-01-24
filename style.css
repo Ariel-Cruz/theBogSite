@@ -1,7 +1,17 @@
+
 /* Navbar */
 .navbar {
   background-color: #00C6AB;
   font-family: 'Press Start 2P', system-ui;
+}
+
+body{
+background: url(img/ninbg.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .navbar a {
@@ -16,8 +26,36 @@
   color: #416864;
 }
 
-.nav-item a:active {
-  color: #416864;
+.right{
+  display: inline;
+  float: right;
+  max-width: 45%;
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+.left{
+  display: inline;
+  float: left;
+  max-width: 45%;
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
+.holder{
+  padding: 5px;
+  clear: both;
+}
+.mario{
+  max-height: 70%;
+  width: auto;
+}
+
+.custom-footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 100%;
+  color: white;
 }
 
 body{
@@ -56,4 +94,101 @@ body{
   margin-bottom: 20px;
 }
 
+
 /* Fin parte Dani */
+
+.nav-logo {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.row > * {
+  margin-bottom: 20px;
+}
+
+.nav-link:active {
+  color: #fff;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .5);
+}
+
+
+/* estilos about us */
+#back{
+  background-image: url('../Pic/black-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+a{
+  font-family: 'Press Start 2P', system-ui;
+  
+}
+p{
+  color: #ffffff;
+  font-size: 20px;
+  margin: 4%;
+}
+h1{
+  font-family: 'Press Start 2P', system-ui;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 3%;
+  
+}
+#imagen, img {
+  height: 100%;
+  width: 98%;
+  padding:1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+} 
+#liveAlertBtn {
+  background-color: #6AA3B4;
+}
+#contactanos{
+  color: #00C6AB
+}
+#ayuda {
+  color: #00C6AB;
+}
+#contacto{
+  color: #00C6AB;
+}
+#autores{
+  color: #68DA3E;
+}
+#grupo{
+  color: #68DA3E;
+}
+#nintendo{
+  color: #68DA3E
+
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  
+}
+
