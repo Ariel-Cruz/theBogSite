@@ -1,5 +1,6 @@
 
  /*estilos about us */
+ 
 #back {
     background-image: url('../Pic/ninbg - copia.jpg');
     background-size: cover;
@@ -25,8 +26,20 @@
     
   }
 
-  footer p {
-    color: #00C6AB; /* Change the color for footer text */
+  .custom-footer {
+    text-align: center;
+    background-color: #416864;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  .row > * {
+    margin-bottom: 20px;
   }
   
   
